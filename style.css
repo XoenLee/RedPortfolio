@@ -60,6 +60,10 @@ a:hover {
 
 .logo {
   font-size: 2rem;
+  display: flex;
+  height: 75px;
+  width: 75px;
+  margin: auto 0;
 }
 
 .logo:hover {
@@ -70,6 +74,13 @@ a:hover {
 
 #hamburger-nav {
   display: none;
+}
+
+#hamburger-nav .logo {
+  display: flex;
+  height: 3rem;
+  /* width: auto; */
+  margin: auto 0;
 }
 
 .hamburger-menu {
